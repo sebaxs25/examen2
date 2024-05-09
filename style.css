@@ -1,0 +1,185 @@
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    background-color: #3a3d47;
+    width: 1050px;
+    margin: 10px auto;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 22px;
+    border: 1px solid white;
+    height: 3rem;
+    padding: 1rem;
+
+}
+
+nav ul {
+  
+    background-color: #1551a1;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 6rem;
+    z-index: 10; /* Para que se superponga a los demás contenedores */
+    list-style: none;
+    margin-right: 5rem;
+
+ }
+
+#Logo {
+
+    width: 300px;
+    padding: 25px;
+    z-index: 1000;
+  
+    }
+
+.img-header {
+    
+    width: 1050px;
+
+}
+
+nav a:hover {
+
+    background: #0d356a;
+
+}
+
+.contenedor {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: azure;
+
+}
+
+.titulo {
+
+    color: #ff7600;
+    margin-top: 1.2rem;
+    
+}
+
+.cajas {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: azure;
+
+}
+
+.cajas .card {
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    overflow: auto;
+    aspect-ratio: ratio 700px / 800px;
+    margin-bottom: 10px;
+
+}
+
+.cajas .card .contenido .centrar {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    background-color: #1551a1;
+    padding: 0.8rem;
+
+}
+
+.centrar-2 {
+
+    padding: 10px;
+    text-align: justify;
+
+}
+
+.img-cajas {
+
+    width: 100%;
+    display: block;
+
+}
+
+.btn {
+
+    background-color: #1551a1;
+    padding: 1rem;
+    margin: 20px 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+
+    background: #0d356a;
+
+}
+
+#footer {
+
+    background-color: #062348;
+    height: 10rem;
+    display: flex;
+    gap: 50px;
+
+}
+
+.logo-footer {
+
+    width: 200px;
+    margin-top: 1rem;
+
+}
+
+.footer-div1 {
+
+    color: white;
+    width: 35rem;
+    margin-left: 2rem;
+
+}
+
+.footer-div2 {
+
+    color: white;
+    margin: 40px;
+    text-align: center;
+
+}
+
+.footer-div2 img {
+
+    cursor: pointer;
+
+}
+
+
+
+
